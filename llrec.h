@@ -85,7 +85,7 @@ Node* llfilter(Node* head, Comp pred)
     //*********************************************
     // Base case: If head is null, return null
     Node* node;
-    if (head==NULL) {
+    if (head==nullptr) {
         return head;
     }
     else {

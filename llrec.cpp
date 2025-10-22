@@ -6,9 +6,9 @@
 
 void llpivot(Node *&head, Node *&smaller, Node *&larger, int pivot) {
     // Base case: if the list is empty, return
-    if (head == NULL) {
-        smaller = NULL;
-        larger = NULL;
+    if (head == nullptr) {
+        smaller = nullptr;
+        larger = nullptr;
         return;
     }
     // Place the current node in the appropriate list
